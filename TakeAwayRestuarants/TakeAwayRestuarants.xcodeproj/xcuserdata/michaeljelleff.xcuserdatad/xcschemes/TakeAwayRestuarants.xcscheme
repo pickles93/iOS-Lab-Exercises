@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "152A0F5B1AF06EC00007D907"
-               BuildableName = "TakeAwayRestaurants.app"
-               BlueprintName = "TakeAwayRestaurants"
-               ReferencedContainer = "container:TakeAwayRestaurants.xcodeproj">
+               BlueprintIdentifier = "1568869F1AF08F32003DD0DF"
+               BuildableName = "TakeAwayRestuarants.app"
+               BlueprintName = "TakeAwayRestuarants"
+               ReferencedContainer = "container:TakeAwayRestuarants.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "152A0F751AF06EC00007D907"
-               BuildableName = "TakeAwayRestaurantsTests.xctest"
-               BlueprintName = "TakeAwayRestaurantsTests"
-               ReferencedContainer = "container:TakeAwayRestaurants.xcodeproj">
+               BlueprintIdentifier = "156886B71AF08F33003DD0DF"
+               BuildableName = "TakeAwayRestuarantsTests.xctest"
+               BlueprintName = "TakeAwayRestuarantsTests"
+               ReferencedContainer = "container:TakeAwayRestuarants.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "152A0F751AF06EC00007D907"
-               BuildableName = "TakeAwayRestaurantsTests.xctest"
-               BlueprintName = "TakeAwayRestaurantsTests"
-               ReferencedContainer = "container:TakeAwayRestaurants.xcodeproj">
+               BlueprintIdentifier = "156886B71AF08F33003DD0DF"
+               BuildableName = "TakeAwayRestuarantsTests.xctest"
+               BlueprintName = "TakeAwayRestuarantsTests"
+               ReferencedContainer = "container:TakeAwayRestuarants.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "152A0F5B1AF06EC00007D907"
-            BuildableName = "TakeAwayRestaurants.app"
-            BlueprintName = "TakeAwayRestaurants"
-            ReferencedContainer = "container:TakeAwayRestaurants.xcodeproj">
+            BlueprintIdentifier = "1568869F1AF08F32003DD0DF"
+            BuildableName = "TakeAwayRestuarants.app"
+            BlueprintName = "TakeAwayRestuarants"
+            ReferencedContainer = "container:TakeAwayRestuarants.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "152A0F5B1AF06EC00007D907"
-            BuildableName = "TakeAwayRestaurants.app"
-            BlueprintName = "TakeAwayRestaurants"
-            ReferencedContainer = "container:TakeAwayRestaurants.xcodeproj">
+            BlueprintIdentifier = "1568869F1AF08F32003DD0DF"
+            BuildableName = "TakeAwayRestuarants.app"
+            BlueprintName = "TakeAwayRestuarants"
+            ReferencedContainer = "container:TakeAwayRestuarants.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "152A0F5B1AF06EC00007D907"
-            BuildableName = "TakeAwayRestaurants.app"
-            BlueprintName = "TakeAwayRestaurants"
-            ReferencedContainer = "container:TakeAwayRestaurants.xcodeproj">
+            BlueprintIdentifier = "1568869F1AF08F32003DD0DF"
+            BuildableName = "TakeAwayRestuarants.app"
+            BlueprintName = "TakeAwayRestuarants"
+            ReferencedContainer = "container:TakeAwayRestuarants.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

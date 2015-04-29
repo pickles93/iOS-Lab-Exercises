@@ -1,6 +1,6 @@
 //
-//  TakeAwayRestaurantsTests.swift
-//  TakeAwayRestaurantsTests
+//  TakeAwayRestuarantsTests.swift
+//  TakeAwayRestuarantsTests
 //
 //  Created by Michael Jelleff on 29/04/2015.
 //  Copyright (c) 2015 RMIT. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class TakeAwayRestaurantsTests: XCTestCase {
+class TakeAwayRestuarantsTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TakeAwayRestaurants.xcscheme</key>
+		<key>TakeAwayRestuarants.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>152A0F5B1AF06EC00007D907</key>
+		<key>1568869F1AF08F32003DD0DF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>152A0F751AF06EC00007D907</key>
+		<key>156886B71AF08F33003DD0DF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
