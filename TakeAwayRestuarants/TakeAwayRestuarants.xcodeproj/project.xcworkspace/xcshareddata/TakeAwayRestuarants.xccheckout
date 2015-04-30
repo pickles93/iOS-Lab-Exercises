@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>96F139F5-9B01-41E2-8852-C7CD9F938D54</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>TakeAwayRestuarants</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>02AC415514A865E6613C041BEE032BE1ABB4D267</key>
 		<string>https://github.com/pickles93/iOS-Lab-Exercises.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TakeAwayRestuarants/TakeAwayRestuarants.xcodeproj/project.xcworkspace</string>
+	<string>TakeAwayRestuarants/TakeAwayRestuarants.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>02AC415514A865E6613C041BEE032BE1ABB4D267</key>

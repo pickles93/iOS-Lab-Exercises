@@ -15,7 +15,7 @@ class TableViewController : UITableViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        model.getRestaurants()
+        model.loadRestaurants()
         
     }
     
@@ -46,9 +46,6 @@ class TableViewController : UITableViewController {
         return tableCell
         
     }
-    
-    
-
     
     
 }

@@ -7,23 +7,24 @@
 //
 
 import Foundation
+import CoreData
 
-class Restaurant {
-    var name:String
-    var phone:String
+class Restaurant:NSManagedObject {
+    @NSManaged var name:String
+    @NSManaged var phone:String
 
     
-    init(name:String, phone:String){
-        self.name = name
-        self.phone = phone
-    }
+//    init(name:String, phone:String){
+//        self.name = name
+//        self.phone = phone
+//    }
     
     func getName() -> String{
-        return self.name
+        return self.name as String
     }
     
     func getPhone() -> String{
-        return self.phone
+        return self.phone as String
     }
     
 }
