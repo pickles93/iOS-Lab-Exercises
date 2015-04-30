@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var name: UITextField!
+    @IBOutlet weak var phone: UITextField!
+    
+    var restaurantName:String?
+    var restaurantPhone:String?
+    var existingItem: Restaurant!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +26,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func save(sender: AnyObject) {
+        Model.sharedInstance.saveRestaurant(name.text, phone: phone.text, existing: existingItem)
+        self.navigationController?.popToRootViewControllerAnimated(true)
+    }
 
+    @IBAction func cancel(sender: AnyObject) {
+        self.navigationController?.popToRootViewControllerAnimated(true)
+    }
 
 }
 

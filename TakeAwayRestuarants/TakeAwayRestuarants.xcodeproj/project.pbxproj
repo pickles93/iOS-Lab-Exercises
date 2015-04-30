@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		154E390B1AF10011006FB647 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E390A1AF10011006FB647 /* Model.swift */; };
 		156886A61AF08F32003DD0DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156886A51AF08F32003DD0DF /* AppDelegate.swift */; };
 		156886A91AF08F32003DD0DF /* TakeAwayRestuarants.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 156886A71AF08F32003DD0DF /* TakeAwayRestuarants.xcdatamodeld */; };
 		156886AB1AF08F32003DD0DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156886AA1AF08F32003DD0DF /* ViewController.swift */; };
@@ -14,6 +15,8 @@
 		156886B01AF08F32003DD0DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156886AF1AF08F32003DD0DF /* Images.xcassets */; };
 		156886B31AF08F32003DD0DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156886B11AF08F32003DD0DF /* LaunchScreen.xib */; };
 		156886BF1AF08F33003DD0DF /* TakeAwayRestuarantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156886BE1AF08F33003DD0DF /* TakeAwayRestuarantsTests.swift */; };
+		156886C91AF093D8003DD0DF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156886C81AF093D8003DD0DF /* TableViewController.swift */; };
+		156886CB1AF09581003DD0DF /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156886CA1AF09581003DD0DF /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		154E390A1AF10011006FB647 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		156886A01AF08F32003DD0DF /* TakeAwayRestuarants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeAwayRestuarants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		156886A41AF08F32003DD0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		156886A51AF08F32003DD0DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		156886B81AF08F33003DD0DF /* TakeAwayRestuarantsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeAwayRestuarantsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		156886BD1AF08F33003DD0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		156886BE1AF08F33003DD0DF /* TakeAwayRestuarantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeAwayRestuarantsTests.swift; sourceTree = "<group>"; };
+		156886C81AF093D8003DD0DF /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		156886CA1AF09581003DD0DF /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 			children = (
 				156886A51AF08F32003DD0DF /* AppDelegate.swift */,
 				156886AA1AF08F32003DD0DF /* ViewController.swift */,
+				154E390A1AF10011006FB647 /* Model.swift */,
+				156886CA1AF09581003DD0DF /* Restaurant.swift */,
+				156886C81AF093D8003DD0DF /* TableViewController.swift */,
 				156886AC1AF08F32003DD0DF /* Main.storyboard */,
 				156886AF1AF08F32003DD0DF /* Images.xcassets */,
 				156886B11AF08F32003DD0DF /* LaunchScreen.xib */,
@@ -215,9 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156886CB1AF09581003DD0DF /* Restaurant.swift in Sources */,
 				156886AB1AF08F32003DD0DF /* ViewController.swift in Sources */,
 				156886A91AF08F32003DD0DF /* TakeAwayRestuarants.xcdatamodeld in Sources */,
+				154E390B1AF10011006FB647 /* Model.swift in Sources */,
 				156886A61AF08F32003DD0DF /* AppDelegate.swift in Sources */,
+				156886C91AF093D8003DD0DF /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +361,7 @@
 				INFOPLIST_FILE = TakeAwayRestuarants/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,6 +372,7 @@
 				INFOPLIST_FILE = TakeAwayRestuarants/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -415,6 +429,7 @@
 				156886C41AF08F33003DD0DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		156886C51AF08F33003DD0DF /* Build configuration list for PBXNativeTarget "TakeAwayRestuarantsTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +438,7 @@
 				156886C71AF08F33003DD0DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
